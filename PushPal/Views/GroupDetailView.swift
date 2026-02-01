@@ -79,7 +79,7 @@ struct GroupDetailView: View {
             Text("Are you sure you want to leave \(group.name)?")
         }
         .sheet(isPresented: $showShareSheet) {
-            ShareSheet(items: ["Join my PushPal group! Code: \(group.inviteCode)"])
+            ShareSheet(items: ["Join my RepCount AI group! Code: \(group.inviteCode)"])
         }
     }
     

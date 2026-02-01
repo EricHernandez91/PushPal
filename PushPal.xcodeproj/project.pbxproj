@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001 /* PushPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101; };
-		002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102; };
-		003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103; };
-		004 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104; };
-		005 /* PoseDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105; };
-		006 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106; };
-		007 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107; };
-		008 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108; };
-		009 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109; };
-		010 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110; };
-		011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111; };
-		012 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112; };
-		013 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113; };
-		014 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114; };
-		015 /* PushPalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115; };
-		016 /* CreateGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116; };
-		017 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117; };
-		018 /* WorkoutCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118; };
-		019 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119; };
-		020 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120; };
+		001 /* RepCountAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101 /* RepCountAIApp.swift */; };
+		002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102 /* ContentView.swift */; };
+		003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103 /* Assets.xcassets */; };
+		004 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104 /* CameraView.swift */; };
+		005 /* PoseDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105 /* PoseDetectionService.swift */; };
+		006 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106 /* StatsView.swift */; };
+		007 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107 /* GroupsView.swift */; };
+		008 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108 /* WorkoutSession.swift */; };
+		009 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109 /* DataManager.swift */; };
+		010 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110 /* Models.swift */; };
+		011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111 /* SettingsView.swift */; };
+		012 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112 /* CameraPreview.swift */; };
+		013 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113 /* NotificationManager.swift */; };
+		014 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114 /* GroupDetailView.swift */; };
+		015 /* RepCountAIModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 115 /* RepCountAIModel.xcdatamodeld */; };
+		016 /* CreateGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116 /* CreateGroupView.swift */; };
+		017 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117 /* ChallengeView.swift */; };
+		018 /* WorkoutCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118 /* WorkoutCompleteView.swift */; };
+		019 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119 /* OnboardingView.swift */; };
+		020 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120 /* CloudKitManager.swift */; };
+		6D3FA80F2F2F23CF0038093A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3FA80E2F2F23CF0038093A /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		100 /* PushPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		101 /* PushPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPalApp.swift; sourceTree = "<group>"; };
+		101 /* RepCountAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepCountAIApp.swift; sourceTree = "<group>"; };
 		102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -45,12 +46,13 @@
 		112 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 		113 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		114 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
-		115 /* PushPalModel.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = PushPalModel.xcdatamodeld; sourceTree = "<group>"; };
+		115 /* RepCountAIModel.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = RepCountAIModel.xcdatamodeld; sourceTree = "<group>"; };
 		116 /* CreateGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupView.swift; sourceTree = "<group>"; };
 		117 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		118 /* WorkoutCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCompleteView.swift; sourceTree = "<group>"; };
 		119 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		120 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		6D3FA80E2F2F23CF0038093A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3FA80F2F2F23CF0038093A /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				301 /* PushPal */,
+				6D3FA80D2F2F23CF0038093A /* Frameworks */,
 				302 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,13 +79,13 @@
 		301 /* PushPal */ = {
 			isa = PBXGroup;
 			children = (
-				101 /* PushPalApp.swift */,
+				101 /* RepCountAIApp.swift */,
 				102 /* ContentView.swift */,
 				303 /* Views */,
 				304 /* Services */,
 				305 /* Models */,
 				103 /* Assets.xcassets */,
-				115 /* PushPalModel.xcdatamodeld */,
+				115 /* RepCountAIModel.xcdatamodeld */,
 			);
 			path = PushPal;
 			sourceTree = "<group>";
@@ -131,12 +135,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		6D3FA80D2F2F23CF0038093A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FA80E2F2F23CF0038093A /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		400 /* PushPal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500;
+			buildConfigurationList = 500 /* Build configuration list for PBXNativeTarget "PushPal" */;
 			buildPhases = (
 				401 /* Sources */,
 				200 /* Frameworks */,
@@ -166,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 601;
+			buildConfigurationList = 601 /* Build configuration list for PBXProject "PushPal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001 /* PushPalApp.swift in Sources */,
+				001 /* RepCountAIApp.swift in Sources */,
 				002 /* ContentView.swift in Sources */,
 				004 /* CameraView.swift in Sources */,
 				005 /* PoseDetectionService.swift in Sources */,
@@ -213,7 +225,7 @@
 				012 /* CameraPreview.swift in Sources */,
 				013 /* NotificationManager.swift in Sources */,
 				014 /* GroupDetailView.swift in Sources */,
-				015 /* PushPalModel.xcdatamodeld in Sources */,
+				015 /* RepCountAIModel.xcdatamodeld in Sources */,
 				016 /* CreateGroupView.swift in Sources */,
 				017 /* ChallengeView.swift in Sources */,
 				018 /* WorkoutCompleteView.swift in Sources */,

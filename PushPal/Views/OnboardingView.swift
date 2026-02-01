@@ -86,7 +86,7 @@ struct OnboardingView: View {
             }
             
             VStack(spacing: 16) {
-                Text("Welcome to PushPal")
+                Text("Welcome to RepCount AI")
                     .font(.largeTitle.weight(.bold))
                 
                 Text("Your personal pushup companion.\nTrack, compete, and get stronger together.")

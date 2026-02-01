@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct PushPalApp: App {
+struct RepCountAIApp: App {
     @StateObject private var dataManager = DataManager.shared
     @StateObject private var notificationManager = NotificationManager.shared
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false

@@ -1,4 +1,4 @@
-# PushPal 💪
+# RepCount AI 💪
 
 A modern iOS app for tracking pushups with AI-powered pose detection, group challenges, and social accountability.
 
@@ -57,7 +57,7 @@ The app includes:
 
 ## Installation
 
-1. Open `PushPal.xcodeproj` in Xcode
+1. Open `RepCount AI.xcodeproj` in Xcode
 2. Select your development team in Signing & Capabilities
 3. Build and run on a physical iOS device
 
@@ -82,8 +82,8 @@ The app uses Vision's `VNDetectHumanBodyPoseRequest` to:
 ## Project Structure
 
 ```
-PushPal/
-├── PushPalApp.swift          # App entry point
+RepCount AI/
+├── RepCount AIApp.swift          # App entry point
 ├── ContentView.swift          # Main tab view
 ├── Views/
 │   ├── CameraView.swift       # Workout camera screen
@@ -112,7 +112,7 @@ PushPal/
 To enable group syncing:
 
 1. Enable CloudKit in Signing & Capabilities
-2. Create a CloudKit container: `iCloud.com.pushpal.app`
+2. Create a CloudKit container: `iCloud.com.repcountai.app`
 3. Add record types matching the CloudKitManager schemas
 4. Enable push notifications for real-time updates
 
