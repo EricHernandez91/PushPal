@@ -177,7 +177,7 @@ struct OnboardingView: View {
             // Goal display
             Text("\(dailyGoal)")
                 .font(.system(size: 72, weight: .bold, design: .rounded))
-                .foregroundStyle(.accentOrange)
+                .foregroundStyle(Color.accentOrange)
             
             Text("pushups per day")
                 .font(.title3)
@@ -246,7 +246,7 @@ struct OnboardingView: View {
                 
                 Image(systemName: "bell.badge.fill")
                     .font(.system(size: 50))
-                    .foregroundStyle(.accentBlue)
+                    .foregroundStyle(Color.accentBlue)
             }
             
             VStack(spacing: 16) {
@@ -264,7 +264,7 @@ struct OnboardingView: View {
             Toggle(isOn: $enableNotifications) {
                 HStack {
                     Image(systemName: "bell.fill")
-                        .foregroundStyle(.accentOrange)
+                        .foregroundStyle(Color.accentOrange)
                     Text("Enable Notifications")
                         .font(.headline)
                 }

@@ -20,14 +20,14 @@ class PoseDetectionService: NSObject, ObservableObject {
     private let videoQueue = DispatchQueue(label: "com.pushpal.videoqueue", qos: .userInteractive)
     
     // Vision
-    private var bodyPoseRequest: VNDetectHumanBodyPoseRequest?
-    
+    nonisolated(unsafe) private var bodyPoseRequest: VNDetectHumanBodyPoseRequest?
+
     // Pushup detection state
     private var lastShoulderHeight: CGFloat?
     private var pushupThresholdUp: CGFloat = 0.6
     private var pushupThresholdDown: CGFloat = 0.4
     private var isInDownPosition = false
-    private var frameCount = 0
+    nonisolated(unsafe) private var frameCount = 0
     private var stablePhaseCount = 0
     private let requiredStableFrames = 3
     

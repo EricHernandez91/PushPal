@@ -65,7 +65,7 @@ struct SettingsView: View {
                             Text("Daily Goal")
                             Spacer()
                             Text("\(dailyGoal)")
-                                .foregroundStyle(.accentOrange)
+                                .foregroundStyle(Color.accentOrange)
                                 .fontWeight(.semibold)
                         }
                     }

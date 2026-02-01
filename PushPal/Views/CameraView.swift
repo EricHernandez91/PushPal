@@ -41,7 +41,7 @@ struct CameraView: View {
                     if session.isActive {
                         Text(session.formattedTime)
                             .font(.system(.headline, design: .monospaced))
-                            .foregroundStyle(.accentOrange)
+                            .foregroundStyle(Color.accentOrange)
                     }
                 }
             }

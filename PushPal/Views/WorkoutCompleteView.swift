@@ -130,7 +130,7 @@ struct WorkoutCompleteView: View {
         VStack(spacing: 8) {
             Image(systemName: icon)
                 .font(.title2)
-                .foregroundStyle(.accentOrange)
+                .foregroundStyle(Color.accentOrange)
             
             Text(value)
                 .font(.title3.weight(.bold))

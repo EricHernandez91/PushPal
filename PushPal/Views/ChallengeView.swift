@@ -76,19 +76,19 @@ struct ChallengeView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
                             Image(systemName: "target")
-                                .foregroundStyle(.accentOrange)
+                                .foregroundStyle(Color.accentOrange)
                             Text("\(targetPushups) pushups")
                         }
                         
                         HStack {
                             Image(systemName: "calendar")
-                                .foregroundStyle(.accentBlue)
+                                .foregroundStyle(Color.accentBlue)
                             Text("\(duration.rawValue)")
                         }
                         
                         HStack {
                             Image(systemName: "chart.line.uptrend.xyaxis")
-                                .foregroundStyle(.accentGreen)
+                                .foregroundStyle(Color.accentGreen)
                             Text("~\(targetPushups / duration.days) pushups/day")
                         }
                     }

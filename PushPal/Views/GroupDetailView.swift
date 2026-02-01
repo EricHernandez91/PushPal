@@ -112,7 +112,7 @@ struct GroupDetailView: View {
                     UIPasteboard.general.string = group.inviteCode
                 } label: {
                     Image(systemName: "doc.on.doc")
-                        .foregroundStyle(.accentOrange)
+                        .foregroundStyle(Color.accentOrange)
                 }
             }
         }
@@ -210,7 +210,7 @@ struct GroupDetailView: View {
                     if member.userId == dataManager.userProfile.id {
                         Text("(You)")
                             .font(.caption)
-                            .foregroundStyle(.accentOrange)
+                            .foregroundStyle(Color.accentOrange)
                     }
                 }
                 
@@ -231,7 +231,7 @@ struct GroupDetailView: View {
             // Pushup count
             Text("\(member.weeklyPushups)")
                 .font(.title3.weight(.bold))
-                .foregroundStyle(.accentOrange)
+                .foregroundStyle(Color.accentOrange)
         }
     }
     
@@ -257,7 +257,7 @@ struct GroupDetailView: View {
                     showCreateChallenge = true
                 } label: {
                     Image(systemName: "plus.circle.fill")
-                        .foregroundStyle(.accentOrange)
+                        .foregroundStyle(Color.accentOrange)
                 }
             }
             

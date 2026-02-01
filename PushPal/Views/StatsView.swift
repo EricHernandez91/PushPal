@@ -204,7 +204,7 @@ struct StatsView: View {
     private func recordRow(label: String, value: String, icon: String) -> some View {
         HStack {
             Image(systemName: icon)
-                .foregroundStyle(.accentOrange)
+                .foregroundStyle(Color.accentOrange)
                 .frame(width: 24)
             
             Text(label)
@@ -259,7 +259,7 @@ struct StatsView: View {
                     .font(.subheadline)
                 HStack(spacing: 4) {
                     Image(systemName: "checkmark.circle.fill")
-                        .foregroundStyle(.accentGreen)
+                        .foregroundStyle(Color.accentGreen)
                         .font(.caption)
                     Text("\(Int(workout.averageFormScore * 100))%")
                         .font(.caption)
